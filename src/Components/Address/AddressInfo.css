@@ -1,0 +1,53 @@
+.address-info {
+
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.address-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.address-info form {
+  display: flex;
+  flex-direction: column;
+}
+
+.address-info label {
+  margin-bottom: 4px;
+}
+
+.address-info input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.address-info button {
+  width: 80px;
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.address-info button[type="submit"] {
+  margin-right: 10px;
+  background-color: #28a745;
+}
+
+.address-info button[type="submit"]:hover,
+.address-info button[type="button"]:hover {
+  opacity: 0.8;
+}

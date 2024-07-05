@@ -1,0 +1,47 @@
+.confirmation-container {
+
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .confirmation-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-container p {
+    margin-bottom: 10px;
+  }
+  
+  .confirmation-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .confirmation-container ul li {
+    margin-bottom: 10px;
+  }
+  
+  .confirmation-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .confirmation-container button:last-child {
+    margin-left: 10px;
+    background-color: #dc3545;
+  }
+  
+  .confirmation-container button:hover {
+    opacity: 0.8;
+  }
+  
