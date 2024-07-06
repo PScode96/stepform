@@ -1,9 +1,9 @@
 .address-info {
-
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f9f9f9;
+  margin: 0 auto; 
 }
 
 .address-info h2 {
@@ -14,20 +14,21 @@
 .address-info form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .address-info label {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 .address-info input[type="text"] {
-  width: 100%;
-  padding: 8px;
+  padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
+  margin-bottom: 4px;
 }
-
 
 .address-info button {
   width: 80px;

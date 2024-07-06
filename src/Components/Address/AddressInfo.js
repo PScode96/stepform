@@ -30,8 +30,7 @@ const AddressInfo = ({ onNext, onBack, formData, setFormData }) => {
     <div className="address-info">
     <form onSubmit={handleSubmit}>
       <h2>Step 2 : Address Information</h2>
-      <label id='1'>
-        Address Line 1:
+      <label>AddressLine 1:</label>
         <input
           type="text"
           value={address1}
@@ -39,10 +38,9 @@ const AddressInfo = ({ onNext, onBack, formData, setFormData }) => {
           className={errors.address1 ? 'error' : ''}
         />
         {errors.address1 && <div className="error-message">{errors.address1}</div>}
-      </label>
+      
       <br />
-      <label id='2'>
-        Address Line 2:
+      <label>Address Line 2:</label>
         <input
           type="text"
           value={address2}
@@ -50,10 +48,9 @@ const AddressInfo = ({ onNext, onBack, formData, setFormData }) => {
           className={errors.address2 ? 'error' : ''}
         />
         {errors.address2 && <div className="error-message">{errors.address2}</div>}
-      </label>
+    
       <br />
-      <label>
-        City:
+      <label> City:</label>
         <input
           type="text"
           value={city}
@@ -61,10 +58,8 @@ const AddressInfo = ({ onNext, onBack, formData, setFormData }) => {
           className={errors.city ? 'error' : ''}
         />
         {errors.city && <div className="error-message">{errors.city}</div>}
-      </label>
       <br />
-      <label>
-        State:
+      <label>State:</label>
         <input
           type="text"
           value={state}
@@ -72,10 +67,9 @@ const AddressInfo = ({ onNext, onBack, formData, setFormData }) => {
           className={errors.state ? 'error' : ''}
         />
         {errors.state && <div className="error-message">{errors.state}</div>}
-      </label>
+  
       <br />
-      <label>
-        Zip Code:
+      <label>Zip Code:</label>
         <input
           type="text"
           value={zip}
@@ -83,13 +77,11 @@ const AddressInfo = ({ onNext, onBack, formData, setFormData }) => {
           className={errors.zip ? 'error' : ''}
         />
         {errors.zip && <div className="error-message">{errors.zip}</div>}
-      </label>
       <br />
       <div className='btn'>
       <button type="button" onClick={onBack}>Back</button>
       <button type="submit">Next</button>
       </div>
-      
     </form>
     </div>
   );
